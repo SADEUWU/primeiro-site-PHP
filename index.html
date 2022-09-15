@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Nosso primeiro documento web</title>
+    </head>
+    <body bgcolor="#C0C0C0">
+        <div align="center">
+            <h3><u>Nosso primeiro formulário de cadastro</u></h3>
+            <img src="ferrari.png" width="96" height="51">
+            <br>
+        <form method="POST" action="processardados.PHP">
+            <input type="text" name="cpf_cliente" placeholder="Digite seu CPF" size="11">
+            <br><br>
+            <input type="text" name="Nome_Cliente" placeholder="Digite o seu Nome" size="30">
+            <br><br>
+            <h5>Informação do Veículo</h5>
+            <br><br>
+            <input type="text" name="placa" placeholder="Placa do Veículo">
+            <br><br>
+            <input type="text" name="Modelo" placeholder="Modelo do Veículo">
+            <br><br>
+            Selecionar Categoria
+            <select name="Categoria">
+                <option value="1">SUV</option>
+                <option valeu="2">Hatch Bag</option>
+                <option valeu="3">Sedã</option>
+                <option valeu="4">Camionete</option>
+            </select>
+            <br><br>
+            <input type="date" name="data_agendamento">
+            <br><br>
+            <input type="submit" value="Agendar">
+        </form>
+        </div>
+    </body>
+</html>
